@@ -1,0 +1,32 @@
+# Well-known ports (services.py)
+
+SERVICES = {
+    20: "FTP-Data",
+    21: "FTP",
+    22: "SSH",
+    23: "Telnet",
+    25: "SMTP",
+    53: "DNS",
+    67: "DHCP",
+    68: "DHCP",
+    69: "TFTP",
+    80: "HTTP",
+    110: "POP3",
+    119: "NNTP",
+    123: "NTP",
+    137: "NetBIOS",
+    138: "NetBIOS",
+    139: "NetBIOS",
+    143: "IMAP",
+    161: "SNMP",
+    179: "BGP",
+    389: "LDAP",
+    443: "HTTPS",
+    445: "SMB",
+    465: "SMTPS",
+    514: "Syslog",
+    587: "SMTP (TLS)",
+    636: "LDAPS",
+    989: "FTPS",
+    990: "FTPS"
+}
